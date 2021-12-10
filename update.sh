@@ -30,6 +30,7 @@ if [ $CURRENT_VERSION != $AVAILABLE_VERSION ]; then
   rm -r build/setup
   cp crontab build
   cp error.ini build
+  cp ost-config.php build/include
   # Updating files successful (there is no checking done yet)? 
   # Write back all variables. After this the script will assume the current version isupdated to the latest.
   echo "Version: $AVAILABLE_VERSION" > info.txt
