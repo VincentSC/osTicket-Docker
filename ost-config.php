@@ -30,7 +30,7 @@ if(OSTINSTALLED!=TRUE){
 }
 
 # Encrypt/Decrypt secret key - randomly generated during installation.
-define('SECRET_SALT','COPY_SALT');
+define('SECRET_SALT','copy the salt from your old install!!');
 
 #Default admin email. Used only on db connection issues and related alerts.
 define('ADMIN_EMAIL','root@support.test.com');
@@ -39,7 +39,7 @@ define('ADMIN_EMAIL','root@support.test.com');
 # ---------------------------------------------------
 # Mysql Login info
 define('DBTYPE','mysql');
-define('DBHOST','localhost');
+define('DBHOST','mysql_osticket.local');
 define('DBNAME','osticket');
 define('DBUSER','osticket');
 define('DBPASS','osticket');
