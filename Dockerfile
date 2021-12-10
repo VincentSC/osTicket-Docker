@@ -1,5 +1,5 @@
 FROM php:7.3-apache
-MAINTAINER Vincent Hindriksen <vincent@streamhpc.com>
+MAINTAINER Vincent Hindriksen
 
 ENV APPHOST http://localhost:80
 ENV APPHTTPS false
