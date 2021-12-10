@@ -30,19 +30,19 @@ if(OSTINSTALLED!=TRUE){
 }
 
 # Encrypt/Decrypt secret key - randomly generated during installation.
-define('SECRET_SALT','7XvtzLZHwYWJUpQrydPRjfRKv0XYwizQ');
+define('SECRET_SALT','COPY_SALT');
 
 #Default admin email. Used only on db connection issues and related alerts.
-define('ADMIN_EMAIL','vincent@streamhpc.com');
+define('ADMIN_EMAIL','root@support.test.com');
 
 # Database Options
 # ---------------------------------------------------
 # Mysql Login info
 define('DBTYPE','mysql');
 define('DBHOST','localhost');
-define('DBNAME','osticketdb');
-define('DBUSER','osticketuser');
-define('DBPASS','df3gsd3fgSFGDS$#3');
+define('DBNAME','osticket');
+define('DBUSER','osticket');
+define('DBPASS','osticket');
 
 # Table prefix
 define('TABLE_PREFIX','ost_');
