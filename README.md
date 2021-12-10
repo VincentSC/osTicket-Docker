@@ -12,3 +12,5 @@ To update:
 - wait, as this takes several minutes
 
 This docker is used in production. I'm sharing these files, so I can learn while helping others. This means that e.g. nginx-proxy will remain the default, but I'm totally open to make overrides for other proxies.
+
+For first use, remove info.txt, else it wil be "up-to-date"
